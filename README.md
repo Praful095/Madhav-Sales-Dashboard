@@ -12,18 +12,18 @@ The goal is to create a Power BI dashboard that provides Madhav with comprehensi
 
 
 ### Steps followed Creating a Power BI Dashboard for Madhav's Online Sales
-To create a Power BI dashboard that tracks and analyzes Madhav's online sales using the provided order and details CSV files, follow these steps:
+To create a Power BI dashboard that tracks and analyzes Madhav's online sales using the provided order and details CSV files, followed these steps:
 
-1. Load Data into Power BI
-Open Power BI Desktop.
-Import CSV Files:
-Go to Home > Get Data > Text/CSV.
+1. Loaded Data into Power BI
+Opened Power BI Desktop.
+Imported CSV Files:
+went to Home > Get Data > Text/CSV.
 Select the order.csv file and click Open.
-Repeat the process for the details.csv file.
+Repeated the process for the details.csv file.
 2. Data Preparation and Cleaning
-Examine the Data:
+Examined the Data:
 
-Click on Data view to inspect the loaded data for both order and details tables.
+Clicked on Data view to inspect the loaded data for both order and details tables.
 Renamed Columns as required
 
 Ensured that column names are clean and consistent.
@@ -36,7 +36,7 @@ Transform Data (if needed):
 
 Go to Home > Transform Data to open Power Query Editor.
 Apply any necessary transformations such as removing duplicates, handling missing values, or changing data types.
-3. Create Calculated Columns and Measures
+3. Created Calculated Columns and Measures
 Calculated Columns:
 
 Create calculated columns for additional insights if needed, such as Year or Month from order_date.
@@ -55,27 +55,20 @@ Total Quantity = SUM(details[quantity])
 4. Build the Dashboard
 Sales Performance Overview:
 
-Create visuals like Line Charts, Bar Charts, and Cards to display total sales, profit, and quantity over time.
-Use the order_date field to show trends over different periods.
-Geographical Analysis:
+Created visuals like Line Charts, Bar Charts, and Cards to display total sales, profit, and quantity over time.
+Used the order_date field to show trends over different periods.
 
-Use Map or Filled Map visuals to display sales distribution by state and city.
-Ensure you use the state and city columns from the order table.
-Product Performance:
-
-Create visuals to display sales by category and sub_category from the details table.
-Use Pie Charts, Tree Maps, or Bar Charts to show top-selling and least-selling products.
+Created visuals to display sales by category and sub_category from the details table.
+Used Pie Charts, Tree Maps, or Bar Charts to show top-selling and least-selling products.
 Customer Insights:
 
-Create visuals to analyze customer data such as sales by customer_name.
-Use demographic data if available in the order table.
+Created visuals to analyze customer data such as sales by customer_name.
+Used demographic data  available in the order table.
 Channel Performance:
 
-Although not directly provided in the CSV files, if you have channel information, include visuals to compare performance across different channels.
 Time-Based Trends:
 
-
-Use Line Charts and Area Charts to display sales trends over different periods.
+Used Line Charts and Area Charts to display sales trends over different periods.
 Highlight peak sales periods and compare them to off-peak periods.
 Operational Metrics:
 
